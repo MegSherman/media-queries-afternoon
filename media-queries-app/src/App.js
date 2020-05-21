@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
-// import './components/Header'
+import "./App.css";
+import Header from "./components/Header.js"
 
 export default class App extends Component {
   constructor () {
@@ -14,7 +14,7 @@ export default class App extends Component {
     return (
     <div className="topBox">
       <div>
-        {/* <Header/> */}
+        <Header/>
       </div>
       <div className="greetingBox">
         <div class="welcome">Welcome To Our Studio!</div>
